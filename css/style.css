@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* font css */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* common class css */
+.flex {
+  display: flex;
+}
+
+.primary-btn {
+  color: white;
+  background-color: red;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+}
+
+/* banner section */
+.banner {
+  background-color: #161616;
+  color: aliceblue;
+  align-items: center;
+  border-radius: 15px;
+  margin: 50px auto;
+}
+.left-side-banner {
+  margin-left: 25px;
+}
+.banner-title {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.banner-description {
+  margin: 20px 0;
+  max-width: 65%;
+}
+.right-side-banner img {
+  display: block;
+}
